@@ -2,6 +2,7 @@
 
 
 ![Alt text](illustrations/method.png?raw=true "Method")
+
 *Processing algorithm overview. (a) Face tracking. (b) Pixels that contain PPG information are isolated by skin detection. (c) The RGB color space is converted to the CIE Luv. (d) The u frame is combined with the skin detection frame by a combinational AND operation. (e) A spatial averaging step is performed to transform a set of frames into a single raw signal.*
 
 
