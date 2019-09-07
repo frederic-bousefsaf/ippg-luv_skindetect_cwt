@@ -13,11 +13,13 @@ Frédéric Bousefsaf, Alain Pruski, Choubeila Maaoui, **Continuous wavelet filte
 
 ## Scientific description
 
-Please refer to the original publication to get all the details.
+Please refer to the original publication to get all the details. Two main contributions were proposed:
+- A skin detection that allows selection of pixels of interests.
+- A filtering procedure based on the continuous wavelet representation of the iPPG signal.
 
 
 ## Requirements
-The codes were developped and tested with OpenCV v.2.4.88888888888.
+The codes were developped and tested in C# with OpenCV v.2.4.88888888888 and in Matlab.
 
 
 ## Usage
