@@ -1,12 +1,13 @@
 # Continuous wavelet filtering on webcam photoplethysmographic signals to remotely assess the instantaneous heart rate
 
 
-![Alt text](illustrations/overview.png?raw=true "General overview")
-*(top) Con*
+![Alt text](illustrations/method.png?raw=true "Method")
+*Processing algorithm overview. (a) Face tracking. (b) Pixels that contain PPG information are isolated by skin detection. (c) The RGB color space is converted to the CIE Luv. (d) The u frame is combined with the skin detection frame by a combinational AND operation. (e) A spatial averaging step is performed to transform a set of frames into a single raw signal.*
 
 
 ## Reference
 If you find this code useful or use it in an academic or research project, please cite it as: 
+
 Frédéric Bousefsaf, Alain Pruski, Choubeila Maaoui, **Continuous wavelet filtering on webcam photoplethysmographic signals to remotely assess the instantaneous heart rate**, *Biomedical Signal Processing and Control*, vol. 8, n° 6, pp. 568–574 (2013).
 
 
