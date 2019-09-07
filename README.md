@@ -25,7 +25,7 @@ The raw signal is then processed using continuous wavelet transform. The time-fr
 
 ![Alt text](illustrations/cwt.png?raw=true "iPPG signal processing using cwt")
 
-*(a) The energy curve is used to filter the CWT spectrogram, presented in (b). (c) The reconstruction gives a detrended and denoised version of the raw signal.*
+*(a) The energy curve is used to filter the CWT spectrogram, presented in (b). (c) The reconstruction gives a detrended and denoised version of the raw signal. Left figure: processing of a typical raw PPG signal, right figure: processing of a typical pulse rate signal to compute breathing rate (respiratory sinus arrhythmia).*
 
 ## Requirements
 The codes were developped and tested in Matlab.
