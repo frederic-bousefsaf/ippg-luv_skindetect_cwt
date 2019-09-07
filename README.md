@@ -6,15 +6,14 @@
 
 
 ## Reference
-
 If you find this code useful or use it in an academic or research project, please cite it as: 
 Frédéric Bousefsaf, Alain Pruski, Choubeila Maaoui, **Continuous wavelet filtering on webcam photoplethysmographic signals to remotely assess the instantaneous heart rate**, *Biomedical Signal Processing and Control*, vol. 8, n° 6, pp. 568–574 (2013).
 
 
 ## Scientific description
-
-Please refer to the original publication to get all the details. Two main contributions were proposed:
+Please refer to the original publication to get all the details. Three main contributions were proposed:
 - A skin detection that allows selection of pixels of interests.
+- A change in colorspace (CIE Luv) to improve robustness over lightning fluctuations.
 - A filtering procedure based on the continuous wavelet representation of the iPPG signal.
 
 
