@@ -17,9 +17,9 @@ Please refer to the original publication to get all the details.
 
 
 ## Requirements
-The codes were tested with Python 3.5/3.6 and Tensorflow + Keras frameworks.
+The codes were developped and tested with OpenCV v.2.4.88888888888.
 
 
 ## Usage
 
-This repository contains two sub-repository: **learn** and **predict** 
+This repository contains
