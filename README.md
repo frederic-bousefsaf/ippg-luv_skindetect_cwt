@@ -48,3 +48,5 @@ Below is a typical usage example. A test sample is available  [here](https://dri
 `[iPPG_time30, iPPG_signal30filt, iPR_time, iPR, iBR_time, iBR] = ippg_luv_skindetect_cwt('C:\sample_front', 'folder', 1);`
 
 ![Alt text](illustrations/results.png?raw=true "Results computed from the sample data")
+
+*Results computed from the sample data*
