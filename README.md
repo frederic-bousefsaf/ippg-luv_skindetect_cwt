@@ -28,8 +28,20 @@ The raw signal is then processed using continuous wavelet transform. The time-fr
 *(a) The energy curve is used to filter the CWT spectrogram, presented in (b). (c) The reconstruction gives a detrended and denoised version of the raw signal. Left figure: processing of a typical raw PPG signal, right figure: processing of a typical pulse rate signal to compute breathing rate (respiratory sinus arrhythmia).*
 
 ## Requirements
-The codes were developped and tested in Matlab.
+The codes were developped and tested in Matlab R2018b. The Computer Vision System Toolbox is required for face detection and tracking.
 
 
 ## Usage
-This repository contains
+Function inputs: 
+- `file`: source folder path (.png images) or video path/filename.
+- `mode`: 'video' or 'folder'. If 'folder' is specified, images must follow a %04d template that starts from 0, i.e. '0000.png', '0001.png'...
+- `display`: 0 = no display, 1 = display signals only, 2 = display signals and face tracking.
+
+
+Function outputs: 
+- `iPPG_time30`, `iPPG_signal30filt`: iPPG signal and time vectors (u* channel filtered using its CWT representation).
+- `iPR_time`, `iPR`: instantaneous (beat-to-beat) pulse rate.
+- `iBR_time`, `iBR`: instantaneous (beat-to-beat) breathing rate.
+
+Below a typical example. A test sample is available in the *samples* subdirectory.
+`ippg_luv_skindetect_cwt('C:\sample_front', 'folder', 1);`
