@@ -45,4 +45,6 @@ Function outputs:
 
 Below is a typical usage example. A test sample is available  [here](https://drive.google.com/open?id=17l_MJVqw4F9cQpcJ-_wFmFNr3bdZNtw9) (sample_front.zip). The folder contains the time vector along with uncompressed images. 
 
-`ippg_luv_skindetect_cwt('C:\sample_front', 'folder', 1);`
+`[iPPG_time30, iPPG_signal30filt, iPR_time, iPR, iBR_time, iBR] = ippg_luv_skindetect_cwt('C:\sample_front', 'folder', 1);`
+
+![Alt text](illustrations/results.png?raw=true "Results computed from the sample data")
