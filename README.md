@@ -43,5 +43,5 @@ Function outputs:
 - `iPR_time`, `iPR`: instantaneous (beat-to-beat) pulse rate.
 - `iBR_time`, `iBR`: instantaneous (beat-to-beat) breathing rate.
 
-Below a typical example. A test sample is available  [here](https://drive.google.com/open?id=17l_MJVqw4F9cQpcJ-_wFmFNr3bdZNtw9) (sample_front.zip). The folder contains raw images with the relative time vector (*times.txt*). 
+Below a typical example. A test sample is available  [here](https://drive.google.com/open?id=17l_MJVqw4F9cQpcJ-_wFmFNr3bdZNtw9) (sample_front.zip). The folder contains the time vector along with uncompressed images. 
 `ippg_luv_skindetect_cwt('C:\sample_front', 'folder', 1);`
