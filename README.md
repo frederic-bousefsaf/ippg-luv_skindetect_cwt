@@ -49,4 +49,4 @@ Below is a typical usage example. A test sample is available  [here](https://dri
 
 ![Alt text](illustrations/results.png?raw=true "Results computed from the sample data")
 
-*Results computed from the sample data*
+*Results computed from the sample data.*
