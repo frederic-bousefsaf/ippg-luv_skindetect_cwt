@@ -8,7 +8,7 @@ This repository contains the source codes related to a method that combines skin
 ## Reference
 If you find this code useful or use it in an academic or research project, please cite it as: 
 
-Frédéric Bousefsaf, Alain Pruski, Choubeila Maaoui, **Continuous wavelet filtering on webcam photoplethysmographic signals to remotely assess the instantaneous heart rate**, *Biomedical Signal Processing and Control*, vol. 8, n° 6, pp. 568–574 (2013).
+Frédéric Bousefsaf, Alain Pruski, Choubeila Maaoui, **Continuous wavelet filtering on webcam photoplethysmographic signals to remotely assess the instantaneous heart rate**, *Biomedical Signal Processing and Control*, vol. 8, n° 6, pp. 568–574 (2013). [Link](https://www.researchgate.net/publication/257690569_Continuous_wavelet_filtering_on_webcam_photoplethysmographic_signals_to_remotely_assess_the_instantaneous_heart_rate)
 
 
 ## Scientific description
