@@ -10,6 +10,7 @@ If you find this code useful or use it in an academic or research project, pleas
 
 Frédéric Bousefsaf, Alain Pruski, Choubeila Maaoui, **Continuous wavelet filtering on webcam photoplethysmographic signals to remotely assess the instantaneous heart rate**, *Biomedical Signal Processing and Control*, vol. 8, n° 6, pp. 568–574 (2013). [Link](https://www.researchgate.net/publication/257690569_Continuous_wavelet_filtering_on_webcam_photoplethysmographic_signals_to_remotely_assess_the_instantaneous_heart_rate)
 
+You can also visit my [website](https://sites.google.com/view/frederic-bousefsaf) for additional information.
 
 ## Scientific description
 Please refer to the original publication to get all the details. Three main contributions were proposed:
